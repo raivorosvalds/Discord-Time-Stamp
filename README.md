@@ -1,9 +1,9 @@
 ## Discord-Time-Stamp-Bot
-#Projekta uzdevums
+# Projekta uzdevums
 Uzdevums: Izveidot programmatūru, kas discord serveros spēj ērti izveidot laika rādītājus('timestamps'). Timestamps ir funkcija sociālo tīklu vidē discord, kas no epoch laika (utc laiks kopš 1970. gada) pārveido to laikā, kompensējot laika zonām. Diemžēl discord vidē šos timestamps izveidot ir ļoti neērti, un ir nepieciešama mājaslapa lai noskaidrotu epoch laiku. Eksistē mājaslapa, no kuras man šī ideja radās https://r.3v.fi/discord-timestamps/, tomēr integrējot šo darbību discord servera botā, darbība tiek atvieglota un automatizēta.
 Discord robotā pievienotas papildus funkcija: atsūtīt nejauši izvēlētu dzīvnieka bildi no konkrētas mājaslapas.
 
-#Python bibliotēkas
+# Python bibliotēkas
 nextcord - bibliotēka paredzēta komunikācijai starp python un discord api. Atzarojums no discordpy.
 nextcord commands - bibliotēka paredzēta discord komandu izsaukšanai
 nextcord interaction - Bibliotēka paredzēta saziņai starp discord botu un personu, kas izsauc komandu.
@@ -12,7 +12,7 @@ datetime - bibliotēka paredzēta pašreizējā laika iegūšanai.
 requests - pieprasa informāciju no attiecīgas mājaslapas (dzīvnieku bilžu ieguvei)
 calendar - bibliotēka paredzēta lai pārveidotu laiku no parastā formāta uz epoch discord timestamp
 
-#Programmatūras izmantošanas metodes
+# Programmatūras izmantošanas metodes
 ar pip install pievienot sekojošās bibliotēkas:
 nextcord
 requests
