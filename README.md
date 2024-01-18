@@ -1,7 +1,7 @@
 # Discord-Time-Stamp-Bot
 Darbs veidots sadarbībā starp Raivo Rosvaldu un Renāru Garderu
 
-https://youtu.be/J9t7WX9LBTs
+[(https://img.youtube.com/vi/J9t7WX9LBTs/0.jpg)](https://www.youtube.com/watch?v=J9t7WX9LBTs)
 ## Projekta uzdevums
 Uzdevums: Izveidot programmatūru, kas discord serveros spēj ērti izveidot laika rādītājus('timestamps'). Timestamps ir funkcija sociālo tīklu vidē discord, kas no epoch laika (utc laiks kopš 1970. gada) pārveido to laikā, kompensējot laika zonām. Diemžēl discord vidē šos timestamps izveidot ir ļoti neērti, un ir nepieciešama mājaslapa lai noskaidrotu epoch laiku. Eksistē mājaslapa, no kuras man šī ideja radās https://r.3v.fi/discord-timestamps/, tomēr integrējot šo darbību discord servera botā, darbība tiek atvieglota un automatizēta.
 Discord robotā pievienotas papildus funkcija: atsūtīt nejauši izvēlētu dzīvnieka bildi no konkrētas mājaslapas.
